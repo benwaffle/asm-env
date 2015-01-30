@@ -1,0 +1,4 @@
+*.o
+*.so
+*.asm
+!Along32/src/Along32.asm
