@@ -17,9 +17,9 @@ For example, run `make demo` to compile demo.asm
 masm to nasm
 ----
 
-masm32 | nasm
------- | ----
-`TITLE my program` | `n/a`
-`INCLUDE IncludeMe.inc` | `%INCLUDE "IncludeMe.inc"`
-`.code` | `section .text`
-`main PROC` | <code>global _start <br><br> _start: </code>
+| masm32 | nasm |
+| ------ | ---- |
+| `TITLE my program` | `n/a` |
+| `INCLUDE IncludeMe.inc` | `%INCLUDE "IncludeMe.inc"` |
+| `.code` | `section .text` |
+| `main PROC` | <code>global _start <br><br> _start: </code> |
