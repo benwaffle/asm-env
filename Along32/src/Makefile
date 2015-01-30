@@ -37,7 +37,7 @@ INSTDIR = /usr/lib
 LINKER = ld
 
 # Share libbrary option for linker
-SHLIB = -shared -melf_i386 -L/usr/lib32 -L/lib/i386-linux-gnu
+SHLIB = -shared -melf_i386 -L/usr/lib32 -L/lib32
 
 all: libAlong32.so
 
