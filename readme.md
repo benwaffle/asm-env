@@ -22,4 +22,4 @@ masm to nasm
 | `TITLE my program` | `n/a` |
 | `INCLUDE IncludeMe.inc` | `%INCLUDE "IncludeMe.inc"` |
 | `.code` | `section .text` |
-| `main PROC` | <code>global _start</code><br><code>_start:</code> |
+| `main PROC` | <code>global _start<br>_start:</code> |
