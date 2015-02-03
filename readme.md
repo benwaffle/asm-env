@@ -14,4 +14,5 @@ use
 ----
 For example, run `make demo` to compile demo.asm
 
-[masm to nasm](diff.html)
+[masm to nasm](https://rawgit.com/benwaffle/asm-env/table/diff.html)
+----
