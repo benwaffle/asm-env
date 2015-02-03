@@ -14,12 +14,4 @@ use
 ----
 For example, run `make demo` to compile demo.asm
 
-masm to nasm
-----
-
-| masm32 | nasm |
-| ------ | ---- |
-| `TITLE my program` | `n/a` |
-| `INCLUDE IncludeMe.inc` | `%INCLUDE "IncludeMe.inc"` |
-| `.code` | `section .text` |
-| `main PROC` | <code>global _start<br>_start:</code> |
+[masm to nasm](diff.html)
