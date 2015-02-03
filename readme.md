@@ -14,13 +14,5 @@ use
 ----
 For example, run `make demo` to compile demo.asm
 
-masm to nasm
+[masm to nasm](https://rawgit.com/benwaffle/asm-env/table/diff.html)
 ----
-
-masm32 | nasm
------- | ----
-`TITLE my program` | `n/a`
-`INCLUDE IncludeMe.inc` | `%INCLUDE "IncludeMe.inc"`
-`.code` | `section .text`
-`main PROC` | <code> global _start <br> 
-					 _start: </code>
