@@ -6,7 +6,7 @@ install
 ----
 You need 32-bit libc and nasm:
 - Ubuntu: `sudo apt-get install libc6-dev-i386 nasm`
-- Arch Linux: enable multilib in `/etc/pacman.conf`, `sudo pacman -Sy`, then `sudo pacman -S lib32-gcc-libs lib32-glibc nasm`
+- Arch Linux: enable multilib in `/etc/pacman.conf`, `sudo pacman -Sy`, then `sudo pacman -S lib32-gcc-libs nasm`
 
 Now run `make install`
 
