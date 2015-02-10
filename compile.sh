@@ -11,6 +11,12 @@ else
 	SRC=$TEMP
 fi
 
-nasm -g -p "Along32/myC32.mac" -p "Along32/Along32.inc" -p "Along32/more_macros.inc" -f elf32 $SRC -o "$1.o" && \
+nasm -g \
+	-p "Along32/myC32.mac" \
+	-p "Along32/Along32.inc" \
+	-p "Along32/more_macros.inc" \
+	-f elf32 $SRC -o "$1.o" && \
+
 gcc -nostdlib -lAlong32 -m32 -Wl,$ENTRYPOINT "$1.o" -o "$1"
+
 rm "$1.o" $TEMP

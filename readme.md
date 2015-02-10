@@ -1,3 +1,5 @@
-`./compile.sh demo`
+from masm32: `dos2unix program.asm`
 
-[masm to nasm](https://rawgit.com/benwaffle/asm-env/master/diff.html)
+use: `./compile.sh demo`
+
+[masm32 to nasm](https://rawgit.com/benwaffle/asm-env/master/diff.html)
