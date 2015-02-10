@@ -1,18 +1,3 @@
-download
-----
-`git clone https://github.com/benwaffle/asm-env.git`
-
-install
-----
-You need 32-bit libc and nasm:
-- Ubuntu: `sudo apt-get install libc6-dev-i386 nasm`
-- Arch Linux: enable multilib in `/etc/pacman.conf`, `sudo pacman -Sy`, then `sudo pacman -S lib32-gcc-libs nasm`
-
-Now run `make install`
-
-use
-----
-For example, run `make demo` to compile demo.asm
+`./compile.sh demo`
 
 [masm to nasm](https://rawgit.com/benwaffle/asm-env/master/diff.html)
-----
